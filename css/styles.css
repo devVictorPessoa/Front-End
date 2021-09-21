@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Pacifico&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border:0;
+   
+}
+body {
+background-image: url(/Front-End1/Check-point/img/joao-tzanno-BxoaHOKCD_Q-unsplash.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: local;
+background-color: rgba(0, 0, 0, 0.40);
+    background-blend-mode: darken;
+    font-family: 'Pacifico', cursive;    
+    height: 2000px;
+    width: 1080px;
+}
+
+header {
+top: 15px;
+    align-items: center;
+    background-position: center; 
+width: 100%;
+height: 100px;
+justify-content: center;
+display: inline-block;
+}
+
+
+.foto {   
+    width: 1000px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+
+    border: 2px solid black;
+position: relative;
+align-content: center;
+top: 22px;
+left: 455px;
+display: inline-block;
+
+
+}   
+
+.foto:hover {
+    transform: scale(1.02);
+    filter: brightness(120%);
+}
+h1 {
+    position: relative;
+font-weight: 80%;
+font-size: 80px;
+left: 528px;
+    color: rgb(255, 166, 23);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.principal p {
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+top: 330px;
+left: 423px;
+font-size: 16px;
+display: inline-block;
+width: 1000px;
+height: 160px;
+color: rgb(255, 255, 255);
+border: solid rgb(10, 7, 34);
+justify-content: center;
+background-color: rgba(184, 129, 84, 0.972);
+background-position: center;
+padding: 20px;
+margin: 10px;
+box-sizing: content-box;
+position: absolute;
+align-content: center;
+
+}
+
+.video {
+position: relative;
+top: 235px;
+left: 310px;
+display: inline-block;
+}
+
+
+#curiosidades {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    position:relative ;
+    top: 1280px;
+    left: 415px;
+    font-size: 16px;
+    display: inline-block;
+    width: 1000px;
+    height: 160px;
+    color: rgb(255, 255, 255);
+    border: solid rgb(10, 7, 34);
+    justify-content: center;
+    background-color: rgb(184, 129, 84);
+    background-position: center;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: content-box;
+    position: absolute;
+    align-content: center;
+    }
+
+#curiosidades h2 { 
+    font-family: 'Pacifico', cursive; 
+    color: rgb(141, 11, 11);
+    display: inline-block;
+}
+
+#cx1 {
+    width: 1900px;
+    height: 50px;
+    border-top: brown;
+    background-color: rgb(184, 129, 84);
+    position: fixed;
+    bottom: 0px;
+left: 3px;
+    margin-top: 4px;
+    display: inline-block;
+
+}
+
+.todentro p { 
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+left: 80px;
+display: inline-block;
+}
+
+.insta { 
+position: fixed;
+width: 45px;
+height: 45px;
+bottom: 2px;
+right: 220px;
+font-size: 16px;
+}
+
+.instanome {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 0px;
+    right: 164px;
+    font-size: 20px;
+    color: black;
+
+}
